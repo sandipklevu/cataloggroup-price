@@ -1,0 +1,34 @@
+{
+    "name": "sandipklevu/module-cataloggroupprice",
+    "description": "Override to Klevu search core",
+    "require": {
+		"php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+		"magento/module-store": "@stable",
+		"magento/module-catalog": "@stable",
+		"magento/module-backend": "@stable",
+		"magento/module-eav": "@stable",
+		"magento/framework": "@stable",
+        "klevu/module-search": "~2.2.18"
+    },
+    "type": "magento-module",
+    "version": "1.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+	"authors": [
+	    {
+			"name": "Klevu Oy",
+			"email": "niraj.aswani@klevu.com",
+			"homepage": "https://www.klevu.com/"
+		}
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Klevu\\ProductOverride\\": ""
+        }
+    }
+}
