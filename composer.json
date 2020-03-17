@@ -11,7 +11,7 @@
         "klevu/module-search": "~2.2.5"
     },
     "type": "magento-module",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": [
         "OSL-3.0",
         "AFL-3.0"

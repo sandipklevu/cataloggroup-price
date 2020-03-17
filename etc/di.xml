@@ -1,4 +1,9 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-	<preference for="Klevu\Search\Model\Product\ProductInterface" type="Klevu\ProductOverride\Model\Product\Product"/>
+	<!-- <preference for="Klevu\Search\Model\Product\ProductInterface" type="Klevu\ProductOverride\Model\Product\Product"/> -->
+
+	<type name="Klevu\Search\Model\Product\Product">
+		<plugin name="KlevuProductOverRide_UAE" type="Klevu\ProductOverride\Plugin\Product"/>
+    	</type>
+
 </config>
