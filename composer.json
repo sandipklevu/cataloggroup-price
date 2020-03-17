@@ -2,7 +2,7 @@
     "name": "sandipklevu/module-cataloggroupprice",
     "description": "Override to Klevu search core",
     "require": {
-		"php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+		"php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
 		"magento/module-store": "@stable",
 		"magento/module-catalog": "@stable",
 		"magento/module-backend": "@stable",
@@ -11,7 +11,7 @@
         "klevu/module-search": "~2.2.18"
     },
     "type": "magento-module",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
